@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: '2dumbregular';
+    src: url('font/2Dumb-webfont.eot');
+    src: url('font/2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/2Dumb-webfont.woff2') format('woff2'),
+         url('font/2Dumb-webfont.woff') format('woff'),
+         url('font/2Dumb-webfont.ttf') format('truetype'),
+         url('font/2Dumb-webfont.svg#2dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body 
+{
+    margin: 0px;
+    background-image: url("fond numerique.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: cover;
+   
+}
+
+
+h1
+{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    font-family: '2dumbregular', Arial, serif;
+}
+
+
+header
+{
+    background-color: grey;
+}
+
+.image
+{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+img
+{
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #000; 
+}
+
+
+
+#photoDescription
+{
+    display: flex;
+    
+}
+
+
+.vignette
+{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    align-content: center;
+    border-style: double;
+    width: 20%;
+    height: 20%;
+    transition: linear 200ms;
+}
+
+
+.vignette:hover 
+{
+    width: 60%;
+    height: 30%;
+}
+
+footer
+{
+    bottom: 0;
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    background-color: blue; 
+    background-image: linear-gradient(to bottom right, #0052b0, #b340b3); 
+}
